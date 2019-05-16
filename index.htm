@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Habibi.Works</title>
+    <meta
+      name="description"
+      content="Welcome to Habibi.Works, an intercultural maker space and platform for education, empowerment and encounters for refugees and Greek locals in the North of Greece!"
+    />
+    <link href="_css/main.css" rel="stylesheet" media="screen" />
+  </head>
+  <body>
+    <!-- 
+      01- Header section:
+        The header used to represent:
+        - The navigation of the website (so website visitors can go to different pages inside and outside the website)
+        - The identity of the website -the project or business- (Logo, title, subtitle)
+
+        * Notes:
+        - This section will be the same in almost all pages (unless there is login page, video, pictures gallery)
+     -->
+    <header id="mainHeader" role="banner">
+      <h1>Habibi.Works</h1>
+      <p>IMPLEMENTING SELF AID SINCE AUGUST 2016</p>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="index.htm" title="Main page" class="current">Home</a>
+          </li>
+          <li><a href="#sections" title="Products">Sections</a></li>
+          <li><a href="#news" title="Read our blog!">News</a></li>
+          <li><a href="#aboutus" title="Company">About us</a></li>
+          <li>
+            <a href="https://www.facebook.com/HabibiWorks/" title="Contact"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 
+      02- Main section:
+        This section includes the main content of the web page (articles, pictures, multimedia, etc..)
+     -->
+    <main role="main">
+      <div class="branding">
+        <h2>Who we are!</h2>
+        <p>
+          Welcome to Habibi.Works, an intercultural maker space and platform for
+          education, empowerment and encounters for refugees and Greek locals in
+          the North of Greece! We work at eye level with people. We support them
+          to create solutions themselves. We listen to their ideas instead of
+          telling them what to do. We encourage them to share their skills and
+          expertise. Habibi.Works is a living example of the values we would
+          like to see in our societies: respect, solidarity, equality.
+        </p>
+        <p>
+          Habibi.Works was founded by our small German NGO Soup and Socks e.V.
+          in 2016 as an intercultural FabLab, designed to bring refugees, locals
+          and international experts together to create products and
+          perspectives. In concrete terms, Habibi.Works is a 700m2 space,
+          consisting of 11 different working areas in which people create,
+          learn, teach and meet.
+        </p>
+      </div>
+
+      <article role="article" class="main-col">
+        <h3>SECTIONS</h3>
+        <ul class="prod-nav">
+          <li>
+            <a href="products/apparel.htm" title="apparel" class="apparel"
+              >Kitchen</a
+            >
+          </li>
+          <li>
+            <a
+              href="products/supplements"
+              title="Supplements"
+              class="supplement"
+              >Wood Workshop</a
+            >
+          </li>
+          <li>
+            <a href="products/bars.htm" title="Protein Bars" class="bars"
+              >Metal Workshop
+            </a>
+          </li>
+          <li>
+            <a href="products/water.htm" title="Mineral Water" class="water"
+              >Sewing Workshop
+            </a>
+          </li>
+        </ul>
+      </article>
+
+      <section class="news" id="news">
+        <h2>News</h2>
+
+        <article
+          role="article"
+          vocab="http://schema.org/"
+          typeof="Event"
+          id="sections"
+        >
+          <h3 property="name">Habibi.Run</h3>
+          <p property="description">
+            Come join us in June as we sponsor our next Habibi Run in Ioannina!
+            This weekend long event features a 5K, 10K, and half marathon for
+            people of all ages and skill types! We will have sample booths,
+            fitness seminars, and live music. When you register please list your
+            age and skill level so that you are registered in the appropriate
+            race. See you there!
+          </p>
+          <ul>
+            <li>
+              <strong>When:</strong> June
+              <span property="startDate" content="2015-06-20">20</span> -
+              <span property="endDate" content="2015-06-21">21</span>
+            </li>
+            <li><strong>Where:</strong> Ioannina, Greece</li>
+            <li>
+              <strong>Start Line:</strong>
+              <span property="location" typeof="PostalAddress"
+                ><span property="streetAddress">Habibi.Works center 442</span>,
+                <span property="addressLocality">Ioannina</span>,
+                <span property="addressRegion">Epirus</span>
+                <span property="postalCode">28202</span></span
+              >
+            </li>
+            <li>
+              <strong>Age classes:</strong>
+              <span property="typicalAgeRange">13 -</span> 17, 17 - 25, 26 - 35,
+              35+
+            </li>
+            <li>
+              <strong>Registration:</strong>
+              <span property="offers" typeof="offer"
+                ><span property="priceCurrency" content="USD20"
+                  >Free</span
+                ></span
+              >
+            </li>
+          </ul>
+          <p>
+            Learn more at
+            <a
+              href="https://www.facebook.com/pg/HabibiWorks/photos/?ref=page_internal"
+              title="H+ Runs"
+              property="url"
+              >Habibi.Works Facebook</a
+            >
+          </p>
+        </article>
+
+        <article id="aboutus">
+          <h3>OUR STORY</h3>
+          <p>
+            This group is a platform for communication between the team of
+            Habibi.Works and people from all around the world who want to
+            participate in the daily activities or implement their own ideas.
+            Information about the weekly activities and the availability of the
+            workshop spaces can be found here.
+          </p>
+          <p>
+            You can see the pesentation here:
+            <a
+              href="https://www.facebook.com/groups/500220370369372/about/"
+              title="Award ceremony"
+              >Habibi.Works Facebook</a
+            >
+          </p>
+        </article>
+        <article>
+          <h3>TRANSPARENCY AT THE CORE</h3>
+          <p>
+            We value your trust and support. Which is why we continuously share
+            with you the developments taking place on the field, and we are open
+            to any information you might request on our use of your support.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <!-- 
+      04- Footer section
+        In this section we include:
+        - The contact information of the website
+        - Sitemap
+        - General information
+        - Copyrights
+    
+     -->
+    <footer id="pageFooter" role="contentinfo">
+      <div class="rightCol">
+        <p class="topLink"><a href="#mainHeader">return to top</a></p>
+        <p>
+          <b>Habibi.Works</b>
+        </p>
+      </div>
+      <div class="leftCol">
+        <p>
+          Your support makes our work possible. To contribute you can choose
+          from different options which can be cash, materials or even at no cost
+          for you.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
